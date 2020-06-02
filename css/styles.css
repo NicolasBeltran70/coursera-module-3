@@ -1,0 +1,80 @@
+
+body {
+  font-size: 16px;
+  background-color: #66AD07;
+  font: oblique bold 120% cursive;
+  color: black;
+}
+/** HEADER **/
+.navbar {/*caracteristicas barra navegacion, fondo y letra*/
+background-color: #C0B405;
+border-radius: 0;
+border-style: dotted;
+border-color: dark;
+width: 100%;
+padding: 0;
+}
+
+.navbar-brand {/*division nombre*/
+margin: 0;
+padding: 0;
+}
+
+
+.container-fluid h1 { /* nombre */
+float:left;
+color: black;
+font-size: 55px;
+text-transform: uppercase;
+text-shadow: 1px 1px 1px #222;/* sombra*/
+padding: 15px;
+}
+ a:hover, a:focus, {/*quitamos las lineas del url*/
+text-decoration: none;
+}
+
+.container-fluid button.navbar-toggler {/*apuntando al boton*/
+  border-color: black;
+  margin-right: 15px;
+}
+
+#datan{
+  font-size: 3vw;
+  border-style: solid;
+  border-width: medium;
+  background-color: #A3D936;
+}
+
+.item{
+  border-style: solid;
+  border-width: medium;
+}
+
+h2{
+  margin: 30px;
+  font-size: 55px ;
+
+}
+
+.columna{
+  padding: 15px;
+  border-style: solid;
+  border-width: medium;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #C0B405;
+}
+.columna h3{
+  color: dark;
+  border-color: black;
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {/*hasta 992px esa clase estara oculta*/
+
+  .navbar-collapse{
+    visibility: hidden;
+  }
+}
